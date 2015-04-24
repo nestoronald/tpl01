@@ -1,0 +1,71 @@
+@charset "utf-8";
+.nav-collapse.collapse {
+    overflow: hidden !important;
+}
+body, div, span, object, iframe, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ vertical-align: baseline;
+ font-size: 100%;
+ font: inherit;
+}
+body {
+    background: url("../img/bg-body.png") repeat top center fixed;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+    font-size: 80%;
+}
+label, legend {
+    font-weight: bold;
+}
+legend {
+    font-size: 1.2em;
+}
+
+/*Cabecera */
+#header .top{
+    padding: 1em 0;
+    background-image: url("../img/001c.jpg");
+    background-repeat: repeat-x;
+}
+#header .span6  {
+    margin-left: 0px;
+}
+#header .span4 img {
+    margin-top: 17px;
+}
+#header h1 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 220%;
+    font-weight: bold;
+}
+#header .navbar-inverse .navbar-inner {
+    background-image: url("../img/007.jpg");
+    background-repeat: repeat-x;
+    border: 0;
+    border-top: 5px solid #40B4E3;
+}
+/*Menu principal*/
+.nav-collapse.collapse {
+    overflow: hidden !important;
+}
+/*Formulario de acceso*/
+.div-login-main {
+    padding-top: 10px;
+    text-align: right;
+    padding: 6px 0;
+    border-bottom: 1px solid #BBBBBB;
+    border-top: 1px solid #ccc;
+}
+/*Contenido principal*/
+.igp-main {
+    background: #FFFDFD;
+}
+/*Pie de página*/
+.igp-foot {
+    background: #222;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}

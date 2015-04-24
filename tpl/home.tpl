@@ -1,5 +1,5 @@
-{% extends 'base.tpl'%}
-{% block main %}
+{extends file="base.tpl"}
+{block name=content}
 <div class="jumbotron">
   <h1>Bienvenid@</h1>
   <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -30,4 +30,4 @@
       </div>
     </div>
 </div>
-{% endblock %}
+{/block}

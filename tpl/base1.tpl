@@ -46,7 +46,7 @@
     <div class="container">
       {% block main%}{% endblock %}
       <div class="footer">
-        <p>&copy; IGP 2013</p>
+        <p>&copy; IGP 2015</p>
       </div>
     </div>
   </body>
