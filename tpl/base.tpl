@@ -29,7 +29,9 @@
                                <span>Menu</span>
                             </button>
                             <div class="nav-collapse collapse">
-                                <ul id="menu" class=" nav"></ul>
+                                <ul id="menu" class=" nav">
+                                  {include file="./menu.tpl"}
+                                </ul>
                                 <ul class="navigp" id="menu_rigth"></ul>
                             </div>
                         </div>

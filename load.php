@@ -1,8 +1,8 @@
 <?php
+// Twig
 require ('../../class/twig/lib/Twig/Autoloader.php');
 Twig_Autoloader::register();
-
-/*smarty*/
+//Smarty
 require ('../../class/smarty/Smarty.class.php');
 
 try {
