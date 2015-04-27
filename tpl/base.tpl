@@ -17,7 +17,7 @@
       <div id="header">
             <div class="container top">
                 <div class="span4"><a href="/"><img alt="logo minam igp" src="static/img/logo-minan-igp-2012.png"></a></div>
-                <div class="span6"> <h1 class="fcenter"> <h1>Titulo de módulo </h1>
+                <div class="span6"> <h1 class="fcenter">Titulo de módulo </h1>
                 </div>
                 <div class="span2"><a href="http://www.igp.gob.pe" alt="logo igp"><img src="static/img/logo-igp-102-78.png"></a></div>
             </div>
@@ -36,10 +36,7 @@
                     </div>
             </div>
         </div>
-        <!-- <div class="container div-login-main">
-            <div id="divformlogin">
-            </div>
-        </div> -->
+
 
         <div class="last container-fluid">
                 <div class="row-fluid">

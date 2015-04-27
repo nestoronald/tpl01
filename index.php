@@ -10,6 +10,7 @@
 // }
 
 require ('../../class/smarty/Smarty.class.php');
+date_default_timezone_set('America/Lima');
 $smarty = new Smarty;
 $smarty->display('./tpl/home.tpl');
 ?>

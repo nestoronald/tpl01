@@ -69,3 +69,8 @@ legend {
     color: #fff;
     text-align: center;
 }
+
+/*Formato de texto*/
+.fcenter{
+    text-align: center;
+}

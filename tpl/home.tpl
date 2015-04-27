@@ -1,4 +1,4 @@
-{extends file="base.tpl"}
+{extends file="./base.tpl"}
 {block name=content}
 <div class="jumbotron">
   <h1>Bienvenid@</h1>
