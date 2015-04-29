@@ -26,6 +26,7 @@ a, .txt-celeste{
 }
 a:hover {
     color:#ccc;
+    text-decoration: none;
 }
 ul li {
     list-style: none;
@@ -76,7 +77,19 @@ ul li {
     background: #222;
     padding: 20px;
     color: #fff;
-    text-align: center;
+}
+.igp-foot .row-fluid {
+    margin-bottom:2em;
+    margin-left: 1em
+}
+.igp-foot .menu li {
+    color: #898989;
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+}
+.igp-foot .menu li:last-child {
+    border-bottom: none;
 }
 /*btn*/
 .igp-main .btn-primary {

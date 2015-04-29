@@ -49,10 +49,15 @@
         </div>
         <div class="container">
             <div class="row-fluid">
-             <div class="span12 igp-foot">
-                <p> © 2014 Instituto Geofísico del Perú </p>
+              <div class="span12 igp-foot">
+                <div class="row-fluid section">
+                  {include file="./foot-section.tpl"}
+                </div>
+                <div class="row-fluid fcenter">
+                  {include file="./foot-info.tpl"}
+                </div>
              </div>
-             </div>
+            </div>
         </div>
 </div>
 <script src="static/js/bootstrap.min.js"></script>
