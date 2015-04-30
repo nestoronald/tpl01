@@ -13,53 +13,51 @@
     <script src="static/js/jquery-1.7.2.min.js"></script>
 </head>
 <body>
-    <div class = "container igp-main">
-      <div id="header">
-            <div class="container top">
-                <div class="span4"><a href="/"><img alt="logo minam igp" src="static/img/logo-minan-igp-2012.png"></a></div>
-                <div class="span6"> <h1 class="fcenter">Titulo de módulo </h1>
-                </div>
-                <div class="span2"><a href="http://www.igp.gob.pe" alt="logo igp"><img src="static/img/logo-igp-102-78.png"></a></div>
-            </div>
-            <div class="container main-menu">
-                    <div class="navbar navbar-inverse">
-                        <div class="navbar-inner">
-                            <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-                                <span class="caret"></span>
-                               <span>Menu</span>
-                            </button>
-                            <div class="nav-collapse collapse">
-                                <ul id="menu" class=" nav">
-                                  {include file="./menu.tpl"}
-                                </ul>
-                                <ul class="navigp" id="menu_rigth"></ul>
-                            </div>
-                        </div>
-                    </div>
+  <div class = "container igp-main">
+    <div id="header">
+      <div class="container top">
+          <div class="span4"><a href="/"><img alt="logo minam igp" src="static/img/logo-minan-igp-2012.png"></a></div>
+          <div class="span6"> <h1 class="fcenter">Titulo de módulo </h1>
+          </div>
+          <div class="span2"><a href="http://www.igp.gob.pe" alt="logo igp"><img src="static/img/logo-igp-102-78.png"></a></div>
+      </div>
+      <div class="container main-menu">
+        <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+              <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="caret"></span>
+                <span>Menu</span>
+              </button>
+              <div class="nav-collapse collapse">
+                  <ul id="menu" class=" nav">
+                      {include file="./menu.tpl"}
+                  </ul>
+                  <ul class="navigp" id="menu_rigth"></ul>
+              </div>
             </div>
         </div>
-
-
-        <div class="last container-fluid">
-                <div class="row-fluid">
-                    <div class=" span12">
-                      {block name="content"}{/block}
-                    </div>
-                </div>
-        </div>
-        <div class="container">
-            <div class="row-fluid">
-              <div class="span12 igp-foot">
-                <div class="row-fluid section">
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="container-fluid igp-content">
+        {block name="content"}{/block}
+      </div>
+    </div>
+    <div class="container">
+      <div class="row-fluid">
+          <div class="span12 igp-foot">
+              <div class="row-fluid section">
                   {include file="./foot-section.tpl"}
-                </div>
-                <div class="row-fluid fcenter">
+              </div>
+              <div class="row-fluid fcenter">
                   {include file="./foot-info.tpl"}
-                </div>
-             </div>
-            </div>
-        </div>
-</div>
-<script src="static/js/bootstrap.min.js"></script>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script type="text/javascript" language="javascript" src="static/js/datatable/jquery.dataTables.min.js"></script>
+  <script src="static/js/igp.min.js"></script>
 </body>
 </html>
