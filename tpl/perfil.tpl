@@ -5,12 +5,10 @@
         <ul class="nav nav-sidebar nav-list">
             <li class="active"><a href="#acceso"> <i class="icon-book"></i> Datos de Acceso <i class="icon-chevron-right right"></i></a></li>
             <li class=""><a href="#datos_personal"><i class="icon-book"></i> Información de usuario <i class="icon-chevron-right right"></i></a></li>
-
         </ul>
     </div>
     <div class="span9">
-        <div class="reser" id="acceso">
-            {if $smarty.session.idusers}
+        <div class="profile" id="acceso">
             <div class="block_igp">
                 <h3>Datos de Acceso</h3>
                 <p> <span>Usuario:</span> {$smarty.session.admin}</p>
@@ -38,10 +36,8 @@
                       </div>
                 </div>
             </div>
-
-            {/if}
         </div>
-        <div class="reser hide" id="datos_personal">
+        <div class="profile hide" id="datos_personal">
             <div class="block_igp">
                 <h3>Datos de Biblioteca <span>(<a href="#editDataSede" data-toggle="modal"><i class="icon-pencil"></i></a>)</span></h3>
                 <p> <span>Sede:</span> {$smarty.session.profile.biblioteca}</p>

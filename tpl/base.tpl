@@ -8,6 +8,8 @@
     <!--     Boostrap de twitter -->
     <link rel="stylesheet" href="./static/css/bootstrap.min.css">
     <link rel="stylesheet" href="./static/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="./static/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="./static/css/colorbox_3.css" />
     <link rel="stylesheet" href="./static/css/global.css" type="text/css">
     <link rel="stylesheet" href="./static/css/style.css" type="text/css">
     <script src="static/js/jquery-1.7.2.min.js"></script>
@@ -49,7 +51,7 @@
               <div class="row-fluid section">
                   {include file="./foot-section.tpl"}
               </div>
-              <div class="row-fluid fcenter">
+              <div class="fcenter">
                   {include file="./foot-info.tpl"}
               </div>
           </div>
@@ -58,6 +60,7 @@
   </div>
   <script src="static/js/bootstrap.min.js"></script>
   <script type="text/javascript" language="javascript" src="static/js/datatable/jquery.dataTables.min.js"></script>
+  <script src="static/js/colorbox/jquery.colorbox-min.js"></script>
   <script src="static/js/igp.min.js"></script>
 </body>
 </html>
