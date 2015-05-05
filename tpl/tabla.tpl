@@ -1,6 +1,6 @@
 {extends file="./base.tpl"}
 {block name="content"}
-<h2>Tabla simple</h2>
+<h2>Tabla simple (<code>.table .table-bordered</code>)</h2>
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -35,8 +35,15 @@
         </tr>
     </tbody>
 </table>
-<h2>Tabla alterna </h2>
-<table class="table table-bordered case1">
+<pre class="prettyprint linenums">
+    <ol class="linenums">
+    <li class="L0"><span class="tag">&lt;table</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"table table-bordered"</span><span class="tag">&gt;</span></li>
+    <li class="L1"><span class="pln">  ...</span></li>
+    <li class="L4"><span class="tag">&lt;/table&gt;</span></li>
+    </ol>
+</pre>
+<h2>Tabla alterna (<code>.tb1</code>) </h2>
+<table class="table table-bordered tb1">
     <thead>
         <tr>
             <th>#</th>
@@ -70,7 +77,14 @@
         </tr>
     </tbody>
 </table>
-<h3>Tabla con datatable</h3>
+<pre class="prettyprint linenums">
+    <ol class="linenums">
+    <li class="L0"><span class="tag">&lt;table</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"table table-bordered tb1"</span><span class="tag">&gt;</span></li>
+    <li class="L1"><span class="pln">  ...</span></li>
+    <li class="L4"><span class="tag">&lt;/table&gt;</span></li>
+    </ol>
+</pre>
+<h3>Tabla con datatable (<code>.igp-dt</code>)</h3>
 <table class="table table-bordered igp-dt">
     <thead>
         <tr>
@@ -133,5 +147,11 @@
         {/for}
     </tbody>
 </table>
-
+<pre class="prettyprint linenums">
+    <ol class="linenums">
+    <li class="L0"><span class="tag">&lt;table</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"table table-bordered igp-dt"</span><span class="tag">&gt;</span></li>
+    <li class="L1"><span class="pln">  ...</span></li>
+    <li class="L2"><span class="tag">&lt;/table&gt;</span></li>
+    </ol>
+</pre>
 {/block}

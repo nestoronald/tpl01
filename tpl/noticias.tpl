@@ -46,6 +46,19 @@
 </ul>
 </div>
 
+<pre class="prettyprint linenums">
+    <ol class="linenums">
+    <li><span class="tag">&lt;article</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"igp-gallery"</span><span class="tag">&gt;</span></li>
+    <li><span class="pln">  </span><span class="tag">&lt;div</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"field-item"</span><span class="tag">&gt;</span></li>
+    <li ><span class="pln">  </span><span class="pln">  </span><span class="tag">&lt;a</span> <span class="atn">href</span><span class="pun">=</span><span class="atv">"..."</span><span class="atn">class</span><span class="pun">=</span><span class="atv">"colorbox"</span> <span class="tag">&gt;</span></li>
+    <li><span class="pln">  </span><span class="pln">  </span><span class="pln">  </span><span class="tag">&lt;img</span> <span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="tag">&gt;</span></li>
+    <li><span class="pln">  </span><span class="pln">  </span><span class="tag">&lt;/a&gt;</span></li>
+    <li><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li>
+    <li><span class="pln">  ...</span></li>
+    <li><span class="tag">&lt;/article&gt;</span></li>
+    </ol>
+</pre>
+
 
 
 {/block}

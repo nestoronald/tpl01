@@ -35,11 +35,20 @@ table thead th {
     background: #40B4E3;
     color: #fff;
 }
-table.case1 thead th {
+table.tb1 thead th {
     background: #E5E6E7;
     color: #000;
 }
-
+code {
+    padding: 2px 4px;
+    color: #d14;
+    white-space: nowrap;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+article {
+    margin-bottom: 2em;
+}
 /*Cabecera */
 #header .top{
     padding: 1em 0;
@@ -142,8 +151,8 @@ table.case1 thead th {
     padding: 36px;
 }
 .error-actions {
- margin-top: 15px;
- margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .page404 .btn {
     margin-right: 10px;
@@ -264,4 +273,23 @@ table.case1 thead th {
 }
 .dataTables_info {
     margin: 10px 0
+}
+.dataTables_paginate {
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+.dataTables_wrapper .dataTables_length {
+    float: left;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+    margin-bottom: 5px;
+}
+.dataTables_length select[name="DataTables_Table_0_length"]{
+    width: auto;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    margin-bottom: 0;
 }

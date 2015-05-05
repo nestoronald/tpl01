@@ -1,7 +1,7 @@
 {extends file="./base.tpl"}
 {block name="content"}
 <div class="page404" >
-    <h4>¡Error 404!</h4>
+    <h4>¡Página no encontrada!</h4>
     <h5>Lo sentimos <br>
     <small>No se encuentra la página que ha solicitado. No existe o bien ha sido eliminada de nuestro servidor.</small></h5>
     <ul>
