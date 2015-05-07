@@ -22,6 +22,9 @@ elseif (isset($_GET["page"])) {
         case 'tablas':
             $smarty->display('./tpl/tabla.tpl');
             break;
+        case 'lista':
+            $smarty->display('./tpl/lista.tpl');
+            break;
         default:
             $smarty->display('./tpl/404.tpl');
             break;

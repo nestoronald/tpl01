@@ -1,5 +1,5 @@
-{% extends 'base.tpl'%}
-{% block main %}
+{extends file='./base.tpl'}
+{block name="content"}
 <div class="jumbotron">
   <h1>Contacto</h1>
 </div>
@@ -8,9 +8,9 @@
       <form>
           Asunto: <input type="text">
           Mensaje: <textarea></textarea>
-          <button>Enviar</button>
-          <button>Cancelar</button>
+          <button class="btn">Enviar</button>
+          <button class="btn">Cancelar</button>
       </form>
     </div>
 </div>
-{% endblock %}
+{/block}

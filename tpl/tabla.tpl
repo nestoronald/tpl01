@@ -1,6 +1,7 @@
 {extends file="./base.tpl"}
 {block name="content"}
-<h2>Tabla simple (<code>.table .table-bordered</code>)</h2>
+<h2>Formato de Tablas</h2>
+<h4>Tabla simple (<code>.table .table-bordered</code>)</h4>
 <table class="table table-bordered">
     <thead>
         <tr>
@@ -42,7 +43,7 @@
     <li class="L4"><span class="tag">&lt;/table&gt;</span></li>
     </ol>
 </pre>
-<h2>Tabla alterna (<code>.tb1</code>) </h2>
+<h4>Tabla alterna (<code>.tb1</code>) </h4>
 <table class="table table-bordered tb1">
     <thead>
         <tr>

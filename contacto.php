@@ -1,3 +1,4 @@
 <?php
 require ('load.php');
-echo $twig->render('contacto.tpl');
+$smarty->display('./tpl/contacto.tpl');
+?>

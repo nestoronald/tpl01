@@ -39,9 +39,9 @@
         </div>
         <div class="profile hide" id="datos_personal">
             <div class="block_igp">
-                <h3>Datos de Biblioteca <span>(<a href="#editDataSede" data-toggle="modal"><i class="icon-pencil"></i></a>)</span></h3>
-                <p> <span>Sede:</span> {$smarty.session.profile.biblioteca}</p>
-                <p> <span>Adminsitrador:</span> {$smarty.session.profile.names}</p>
+                <h3>Datos personales<span>(<a href="#editDataSede" data-toggle="modal"><i class="icon-pencil"></i></a>)</span></h3>
+                <p> <span>Nombres:</span> </p>
+                <p> <span>Cargo:</span> {$smarty.session.profile.names}</p>
                 <p> <span>Email:</span> <span> {$smarty.session.profile.email}</span></p>
                 <p> <span>DNI:</span> {$smarty.session.profile.dni}</p>
                 <p> <span>Dirección:</span> {$smarty.session.profile.address} </p>
