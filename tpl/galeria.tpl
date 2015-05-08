@@ -43,4 +43,16 @@
     <li><span class="tag">&lt;/article&gt;</span></li>
     </ol>
 </pre>
+<!-- <script type="text/javascript">
+  $(document).ready(function(){
+      $("#menu li a").live("click", function(){
+      // $(".main-menu li").removeClass("active");
+      $(this).parent("li").addClass("active");
+      alert("nuevo click");
+      return true;
+    })
+  })
+
+
+</script> -->
 {/block}

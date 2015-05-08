@@ -6,4 +6,4 @@
 <li><a href="?page=404">404</a></li>
 <li><a href="?page=tablas">Tablas</a></li>
 <li><a href="?page=noticias">Noticias</a></li>
-<li><a href="contacto.php">Contacto</a></li>
+<li><a href="?page=contacto">Contacto</a></li>

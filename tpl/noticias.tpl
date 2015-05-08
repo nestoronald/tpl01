@@ -22,7 +22,7 @@
             </div>
         </header>
         <header>
-                <h2><a href="/noticias/puede-llegar-ubinas-nivel-explosion-volcanica-calbuco">¿Puede llegar el Ubinas al nivel de explosión volcánica del Calbuco?</a></h2>
+                <h3><a href="/noticias/puede-llegar-ubinas-nivel-explosion-volcanica-calbuco">¿Puede llegar el Ubinas al nivel de explosión volcánica del Calbuco?</a></h3>
         </header>
         <div class="content">
            <p><img alt="" src="http://ovs.igp.gob.pe/sites/ovs.igp.gob.pe/files/pictures/imagesNP/2015/emisionceniza080415_0.jpg" style="float:left; height:167px; margin:5px 15px; width:250px">Tras ver las impresionantes imágenes de la&nbsp;<a href="http://www.rpp.com.pe/2015-04-23-chile-alerta-roja-por-nueva-erupcion-del-volcan-calbuco-noticia_790396.html" style="line-height: 23.1111106872559px;">erupción del volcán Calbuco en Chile</a>, que ha obligado a los autoridades de ese país a declarar la alerta roja y ordenar la evacuación de varios poblados, cabe preguntarse si&nbsp;es posible un escenario similar en nuestro país ante una eventual erupción del Ubinas en Moquegua. Fuente&nbsp;<a href="http://www.rpp.com.pe/2015-04-23--puede-llegar-el-ubinas-al-nivel-de-explosion-volcanica-del-calbuco-noticia_790474.html" style="line-height: 23.1111106872559px;" target="_blank">RPP Noticias</a></p>
@@ -55,9 +55,17 @@
     <li><span class="pln">  </span><span class="pln">  </span><span class="tag">&lt;/a&gt;</span></li>
     <li><span class="pln">  </span><span class="tag">&lt;/div&gt;</span></li>
     <li><span class="pln">  ...</span></li>
+    <li><span class="tag">&lt;ul</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"pager"</span><span class="tag">&gt;</span></li>
+        <li><span class="tag">&lt;li</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"pager-current first"</span><span class="tag">&gt;</span> <span class="pln">1</span><span class="tag">&lt;</span><span class="tag">/li&gt;</span></li>
+        <li><span class="tag">&lt;li</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"pager-item"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span> <span class="atn">title</span>=<span class="atv">"Ir a la página 2"</span> <span class="atn"> href</span>=<span class="atv">"..."</span> <span class="tag">&gt;</span> <span class="pln">2</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span></li>
+        <li><span class="tag">&lt;li</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"pager-item"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span> <span class="atn">title</span>=<span class="atv">"Ir a la página 3"</span> <span class="atn"> href</span>=<span class="atv">"..."</span> <span class="tag">&gt;</span> <span class="pln">3</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span></li>
+        <li><span class="tag">&lt;li</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"pager-next"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span> <span class="atn">title</span>=<span class="atv">"Ir a la página siguiente"</span> <span class="atn"> href</span>=<span class="atv">"..."</span> <span class="tag">&gt;</span><span class="pln">&gt;</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span></li>
+        <li><span class="tag">&lt;li</span> <span class="atn">class</span><span class="pun">=</span><span class="atv">"pager-last last"</span><span class="tag">&gt;</span><span class="tag">&lt;a</span> <span class="atn">title</span>=<span class="atv">"Ir a la última página"</span> <span class="atn"> href</span>=<span class="atv">"..."</span> <span class="tag">&gt;</span><span class="pln">&gt;&gt;</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span></li>
+    <li><span class="tag">&lt;/ul</span>&gt;</li>
     <li><span class="tag">&lt;/article&gt;</span></li>
     </ol>
 </pre>
+
 
 
 

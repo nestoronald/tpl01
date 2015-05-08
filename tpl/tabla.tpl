@@ -37,11 +37,7 @@
     </tbody>
 </table>
 <pre class="prettyprint linenums">
-    <ol class="linenums">
-    <li class="L0"><span class="tag">&lt;table</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"table table-bordered"</span><span class="tag">&gt;</span></li>
-    <li class="L1"><span class="pln">  ...</span></li>
-    <li class="L4"><span class="tag">&lt;/table&gt;</span></li>
-    </ol>
+    <ol class="linenums"><li><span class="tag">&lt;table</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"table table-bordered"</span><span class="tag">&gt;</span></li><li><span class="pln">...</span></li><li><span class="tag">&lt;/table&gt;</span></li></ol>
 </pre>
 <h4>Tabla alterna (<code>.tb1</code>) </h4>
 <table class="table table-bordered tb1">
@@ -156,3 +152,5 @@
     </ol>
 </pre>
 {/block}
+
+

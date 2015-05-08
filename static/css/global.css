@@ -14,6 +14,7 @@ body {
 }
 label, legend {
     font-weight: bold;
+    cursor: default;
 }
 legend {
     font-size: 1.2em;
@@ -46,6 +47,13 @@ code {
 article {
     margin-bottom: 2em;
 }
+.igp-contact.row-fluid [class*="span"] {
+    margin-left: 0;
+}
+/*Pagina de Inicio*/
+.igp-home .span6:nth-of-type(2) {
+    padding-top: 5em;
+}
 /*Cabecera */
 #header .top{
     padding: 1em 0;
@@ -76,6 +84,13 @@ article {
 }
 .igp-main .navbar-inverse .brand, .igp-main .navbar-inverse .nav>li>a {
     color: #EFECEC;
+}
+.main-menu .nav .active>a, .main-menu .nav .active>a:hover, .main-menu .nav .active>a:focus {
+    background-color: #40B4E3;
+    color: #EFECEC;
+}
+.main-menu .nav li a:focus,.main-menu .nav li a:hover {
+  background-color: #111;
 }
 /*Formulario de acceso*/
 .div-login-main {
@@ -155,7 +170,7 @@ article {
 }
 /*Pagina 404*/
 .page404 {
-    margin: 0 auto 3em;
+    margin: 0 auto 1em;
     width: 50%;
     border: 1px solid;
     padding: 36px;
@@ -267,7 +282,7 @@ article {
     border: 1px solid #e5e5e5;
 }
 /*Tabla*/
-.paginate_button  {
+.paginate_button, .igp-main .pager li>a, .igp-main .pager li>span, .igp-main .pager li.pager-current {
     padding: 4px 10px;
     margin: 0 7px 0 0;
     border: 1px solid #e1e1e1;
@@ -280,7 +295,7 @@ article {
     color: #898989;
     cursor: pointer;
 }
-.paginate_button:hover, .paginate_button.current {
+.paginate_button:hover, .paginate_button.current, .igp-main .pager li>a:hover, .igp-main .pager li>a:focus, .igp-main .pager li.pager-current {
     background: #40B4E3;
     color: #fff;
 }
@@ -295,7 +310,6 @@ article {
     float: left;
 }
 .dataTables_wrapper .dataTables_filter {
-    float: right;
     text-align: right;
     margin-bottom: 5px;
 }
