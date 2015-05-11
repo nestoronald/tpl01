@@ -28,6 +28,15 @@ elseif (isset($_GET["page"])) {
         case 'contacto':
             $smarty->display('./tpl/contacto.tpl');
             break;
+        case 'acceso':
+            $smarty->display('./tpl/login.tpl');
+            break;
+        case 'registro':
+            $smarty->display('./tpl/register.tpl');
+            break;
+        case 'personal':
+            $smarty->display('./tpl/personal.tpl');
+            break;
         default:
             $smarty->display('./tpl/404.tpl');
             break;

@@ -7,3 +7,4 @@
 <li><a href="?page=tablas">Tablas</a></li>
 <li><a href="?page=noticias">Noticias</a></li>
 <li><a href="?page=contacto">Contacto</a></li>
+<li><a href="?page=acceso">Ingresar</a></li>

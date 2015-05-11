@@ -1,6 +1,6 @@
 {extends file="./base.tpl"}
 {block name=content}
-<h1>Noticias</h1>
+<h2>Noticias</h2>
 {for $foo=1 to 3}
     <article class="clearfix">
         <header class="entry-meta">
