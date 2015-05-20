@@ -1,11 +1,7 @@
 <?php
 require ('load.php');
-// Twig
-if ($_GET["tpl"]=="1"){
-    echo $twig->render('home1.tpl');
-}
 //Smarty
-elseif (isset($_GET["page"])) {
+if (isset($_GET["page"])) {
     switch ($_GET["page"]) {
         case 'noticias':
             $smarty->display('./tpl/noticias.tpl');
