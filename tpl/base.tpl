@@ -24,8 +24,7 @@
           </div>
           <div class="span2"><a href="http://www.igp.gob.pe" alt="logo igp"><img src="static/img/logo-igp-102-78.png"></a></div>
       </div>
-      <div class="container main-menu">
-        <div class="navbar navbar-inverse">
+      <div class="main-menu navbar navbar-inverse">
             <div class="navbar-inner">
               <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="caret"></span>
@@ -38,7 +37,6 @@
                   <ul class="navigp" id="menu_rigth"></ul>
               </div>
             </div>
-        </div>
       </div>
     </div>
     <div class="container-fluid">
@@ -46,16 +44,14 @@
         {block name="content"}{/block}
       </div>
     </div>
-    <div class="container">
-      <div class="row-fluid">
-          <div class="span12 igp-foot">
+    <div class="container row-fluid">
+      <div class="span12 igp-foot">
               <div class="row-fluid section">
                   {include file="./foot-section.tpl"}
               </div>
               <div class="fcenter">
                   {include file="./foot-info.tpl"}
               </div>
-          </div>
       </div>
     </div>
   </div>
