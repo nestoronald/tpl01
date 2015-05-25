@@ -57,8 +57,6 @@
                         <div id="msj-sede" class="error"></div>
                         <form name="frmDataSede" id="frmDataSede">
                             <input type="hidden" name="users_sede" value="{$smarty.session.users_sede}">
-                            <p> <span>Biblioteca: </span>
-                            <input type="text" name="biblioteca" value="{$smarty.session.profile.biblioteca}" readonly></p>
                             <p> <span>Nombre Completo:</span>
                             <input type="text" name="names" value="{$smarty.session.profile.names}"></p>
                             <p> <span>Email:</span>
